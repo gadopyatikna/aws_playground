@@ -26,7 +26,6 @@ resource "aws_security_group" "fargate_sg" {
   }
 }
 
-
 resource "aws_security_group" "alb_sg" {
   name        = "alb-sg"
   description = "Allow HTTP and HTTPS"
